@@ -1,0 +1,11 @@
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.deps.json
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfo.cs
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/refint/EventBus.RabbitMQ.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/ref/EventBus.RabbitMQ.dll

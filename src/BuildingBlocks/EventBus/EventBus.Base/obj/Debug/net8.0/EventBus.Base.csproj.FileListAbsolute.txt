@@ -1,0 +1,11 @@
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.deps.json
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfoInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfo.cs
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.csproj.CoreCompileInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/refint/EventBus.Base.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/ref/EventBus.Base.dll

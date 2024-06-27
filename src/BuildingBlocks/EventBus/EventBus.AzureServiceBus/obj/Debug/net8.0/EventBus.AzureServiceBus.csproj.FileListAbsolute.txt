@@ -1,0 +1,11 @@
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.deps.json
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfoInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.csproj.CoreCompileInputs.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/refint/EventBus.AzureServiceBus.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/ref/EventBus.AzureServiceBus.dll

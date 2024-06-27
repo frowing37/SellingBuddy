@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "pWcgwYse6jRUqN1xz/Jazn8OOOZsFJgs/OHqjIqcupRldFnJxsttsXTUrabJ0OG1EpN93aeo+kuIW2OW3fwU2Q==",
+  "success": true,
+  "projectFilePath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
