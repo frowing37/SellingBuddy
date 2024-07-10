@@ -3,7 +3,7 @@ namespace EventBus.Base;
 public class EventBusConfig
 {
     public int ConnectionRetryCount { get; } = 5;
-    public string DefaultTopicName { get; set; } = "TechBuddyEventBus";
+    public string DefaultTopicName { get; set; } = "FrowiEventBus";
     public string EventBusConnectionString { get; set; } = string.Empty;
     public string SubscribertClientAppName { get; set; } = string.Empty;
     public string EventNamePrefix { get; set; } = string.Empty;
