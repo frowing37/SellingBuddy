@@ -26,37 +26,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="121fc5e3-8d22-482b-9112-70f24db08de3" name="Changes" comment="azure servicebus configuration">
-      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBusServiceBus.cs" afterDir="false" />
+    <list default="true" id="121fc5e3-8d22-482b-9112-70f24db08de3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBusRabbitMQ.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/RabbitMQPersistentConnection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Abstraction/IEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Abstraction/IEventBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/EventBus.Factory.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/EventBus.Factory.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/EventBus.Factory.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/EventBus.Factory.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/EventBus.RabbitMQ.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/EventBus.RabbitMQ.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clients/WebClient/WebApp/obj/Debug/net8.0/WebApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clients/WebClient/WebApp/obj/Debug/net8.0/WebApp.AssemblyInfo.cs" afterDir="false" />
@@ -102,13 +108,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/Azure/azure-sdk-for-net/c429da7ddcd3ecf1c6f500d24660c98620a5bc79/sdk/servicebus/Microsoft.Azure.ServiceBus/src/Message.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/be112f14aa78a468ab253c5396ef917d5d99fe80682a3206e3d2c2d5842cce6/IConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/Services/BasketService/BasketService.Api/obj/Debug/net8.0/BasketService.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -124,7 +134,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rabbitmq-implementation&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -458,7 +468,9 @@
       <workItem from="1720636570984" duration="2172000" />
       <workItem from="1720728563569" duration="2110000" />
       <workItem from="1720880111794" duration="6648000" />
-      <workItem from="1721393072492" duration="1281000" />
+      <workItem from="1721393072492" duration="4803000" />
+      <workItem from="1721488898896" duration="2411000" />
+      <workItem from="1721550325886" duration="7680000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -492,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720636949961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="azure servicebus configuration">
+      <option name="closed" value="true" />
+      <created>1721397221522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721397221522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
