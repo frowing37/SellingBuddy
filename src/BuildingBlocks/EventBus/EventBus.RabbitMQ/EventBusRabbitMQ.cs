@@ -21,11 +21,16 @@ public class EventBusRabbitMQ : BaseEventBus
     {
         if (_config.Connection != null)
         {
-            var connJson = JsonConvert.SerializeObject(_config.Connection, new JsonSerializerSettings()
+            if (_config.Connection is ConnectionFactory)
+                connectionFactory = _config.Connection as ConnectionFactory;
+            else
             {
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-            });
-            connectionFactory = JsonConvert.DeserializeObject<ConnectionFactory>(connJson);
+                var connJson = JsonConvert.SerializeObject(_config.Connection, new JsonSerializerSettings()
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
+                connectionFactory = JsonConvert.DeserializeObject<ConnectionFactory>(connJson);
+            }
         }
         else
         {
