@@ -26,37 +26,310 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="121fc5e3-8d22-482b-9112-70f24db08de3" name="Changes" comment="azure servicebus configuration">
-      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBusServiceBus.cs" afterDir="false" />
+    <list default="true" id="121fc5e3-8d22-482b-9112-70f24db08de3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.4B749085.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.AzureServiceBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.RabbitMQ.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.RabbitMQ.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.DF3238A7.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.D83D059C.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/EventBus.UnitTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/EventBusTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/Events/Events/OrderCreatedIntegrationEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/Events/EventsHandler/OrderCreatedIntegrationEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/CoverletSourceRootsMapping_EventBus.UnitTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.AzureServiceBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.Factory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.Factory.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.RabbitMQ.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.RabbitMQ.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.UnitTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.UnitTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.UnitTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/EventBus.UnitTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Azure.Amqp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Azure.ServiceBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Azure.Services.AppAuthentication.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Logging.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Logging.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.IdentityModel.Clients.ActiveDirectory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.AdapterUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Testing.Extensions.Telemetry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Testing.Extensions.VSTestBridge.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Testing.Platform.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.Testing.Platform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Polly.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/Polly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/RabbitMQ.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.Testing.Extensions.Telemetry.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.Testing.Extensions.VSTestBridge.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.Testing.Platform.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.Testing.Platform.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.85536F70.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/EventBus.UnitTest.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/ref/EventBus.UnitTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/refint/EventBus.UnitTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/EventBus.UnitTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/EventBus.UnitTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/EventBus.UnitTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SellingBuddy.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SellingBuddy.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBusServiceBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBusServiceBus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/EventBus.AzureServiceBus.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/ref/EventBus.AzureServiceBus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/ref/EventBus.AzureServiceBus.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/refint/EventBus.AzureServiceBus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/refint/EventBus.AzureServiceBus.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Abstraction/IEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Abstraction/IEventBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/bin/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/EventBus.Base.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/ref/EventBus.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/ref/EventBus.Base.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/refint/EventBus.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/Debug/net8.0/refint/EventBus.Base.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Base/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Factory.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/ref/EventBus.Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/ref/EventBus.Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/refint/EventBus.Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/refint/EventBus.Factory.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.Factory/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBusRabbitMQ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBusRabbitMQ.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.RabbitMQ.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/ref/EventBus.RabbitMQ.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/ref/EventBus.RabbitMQ.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/refint/EventBus.RabbitMQ.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/refint/EventBus.RabbitMQ.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clients/WebClient/WebApp/obj/Debug/net8.0/WebApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clients/WebClient/WebApp/obj/Debug/net8.0/WebApp.AssemblyInfo.cs" afterDir="false" />
@@ -102,45 +375,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/Azure/azure-sdk-for-net/c429da7ddcd3ecf1c6f500d24660c98620a5bc79/sdk/servicebus/Microsoft.Azure.ServiceBus/src/Message.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/292b05efaa7141b199751f5f5e932566d82000/36/17575a99/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d947a2966f797916edfa8da637ee1729c71f1f6f712e5ac9e3455eebbb864c/TestMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61f624547d188ed3edbb8ffffe77111dec87a2371abaf79ae26274f62c7094/MethodInfoExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/79e4164404d2be7b9d0cd51036b545bd14f5807c558d20f7cd375d4fd8ff23/ConnectionFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c3a23dca8e1c5aa76b0cdc4c649e165e669db4f1e39e3769da5dda0d383e85e/IAuthMechanismFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/be112f14aa78a468ab253c5396ef917d5d99fe80682a3206e3d2c2d5842cce6/IConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/Events/BaseEventBus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/Services/BasketService/BasketService.Api/obj/Debug/net8.0/BasketService.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2iTdV1EFwo28DOmQGf0O9GLAyD6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "a7e33c0a-046c-4c7b-91ac-2695fe5a1072.executor": "Debug",
+    "git-widget-placeholder": "rabbitmq-implementation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/frowing/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/frowing/.local/share/Symbols/src"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Web.ApiGateway: http">
+}]]></component>
+  <component name="RunManager" selected="Multi-Launch.Multi-Launch: SellingBuddy">
     <configuration name="BasketService.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/BasketService.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -441,6 +727,9 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Multi-Launch: SellingBuddy" type="com.intellij.execution.configurations.multilaunch" factoryName="MultiLaunchConfiguration">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -458,7 +747,13 @@
       <workItem from="1720636570984" duration="2172000" />
       <workItem from="1720728563569" duration="2110000" />
       <workItem from="1720880111794" duration="6648000" />
-      <workItem from="1721393072492" duration="1281000" />
+      <workItem from="1721393072492" duration="4803000" />
+      <workItem from="1721488898896" duration="2411000" />
+      <workItem from="1721550325886" duration="8582000" />
+      <workItem from="1721651986607" duration="2492000" />
+      <workItem from="1722027745394" duration="1586000" />
+      <workItem from="1722165331675" duration="1847000" />
+      <workItem from="1722334652250" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -492,7 +787,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720636949961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="azure servicebus configuration">
+      <option name="closed" value="true" />
+      <created>1721397221522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721397221522</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rabbitmq">
+      <option name="closed" value="true" />
+      <created>1721582007970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721582007970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,11 +822,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="events" />
     <MESSAGE value="catalog,basket services" />
     <MESSAGE value="azure servicebus configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="azure servicebus configuration" />
+    <MESSAGE value="rabbitmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq" />
   </component>
 </project>

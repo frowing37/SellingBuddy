@@ -9,3 +9,12 @@
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/refint/EventBus.Factory.dll
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.pdb
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/ref/EventBus.Factory.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.AzureServiceBus.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Base.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.RabbitMQ.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.AzureServiceBus.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.Base.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/bin/Debug/net8.0/EventBus.RabbitMQ.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.csproj.AssemblyReference.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.sourcelink.json
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.DF3238A7.Up2Date

@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/frowing/Projects/Microservice/SellingBuddy/tests/BuildingBlocks/EventBus.UnitTest/EventBus.UnitTest.csproj": {}
+  },
+  "projects": {
+    "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
+        "projectName": "EventBus.AzureServiceBus",
+        "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
+        "packagesPath": "/Users/frowing/.nuget/packages/",
+        "outputPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frowing/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectName": "EventBus.Base",
+        "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "packagesPath": "/Users/frowing/.nuget/packages/",
+        "outputPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frowing/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+        "projectName": "EventBus.Factory",
+        "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+        "packagesPath": "/Users/frowing/.nuget/packages/",
+        "outputPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frowing/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj"
+              },
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              },
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "projectName": "EventBus.RabbitMQ",
+        "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "packagesPath": "/Users/frowing/.nuget/packages/",
+        "outputPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frowing/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frowing/Projects/Microservice/SellingBuddy/tests/BuildingBlocks/EventBus.UnitTest/EventBus.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frowing/Projects/Microservice/SellingBuddy/tests/BuildingBlocks/EventBus.UnitTest/EventBus.UnitTest.csproj",
+        "projectName": "EventBus.UnitTest",
+        "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/tests/BuildingBlocks/EventBus.UnitTest/EventBus.UnitTest.csproj",
+        "packagesPath": "/Users/frowing/.nuget/packages/",
+        "outputPath": "/Users/frowing/Projects/Microservice/SellingBuddy/tests/BuildingBlocks/EventBus.UnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frowing/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
+                "projectPath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/EventBus.Factory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

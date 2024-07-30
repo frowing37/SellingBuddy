@@ -9,3 +9,8 @@
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/refint/EventBus.RabbitMQ.dll
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.pdb
 /Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/ref/EventBus.RabbitMQ.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.Base.dll
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/bin/Debug/net8.0/EventBus.Base.pdb
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.csproj.AssemblyReference.cache
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.RabbitMQ.sourcelink.json
+/Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.RabbitMQ/obj/Debug/net8.0/EventBus.D83D059C.Up2Date
