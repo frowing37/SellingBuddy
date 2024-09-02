@@ -27,19 +27,465 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="121fc5e3-8d22-482b-9112-70f24db08de3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Core/Application/ViewModels/PaginatedItemsViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Core/Domain/CatalogBrand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Core/Domain/CatalogItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Core/Domain/CatalogType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Context/CatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Context/CatalogContextDesignFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Context/CatalogContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/EntityConfigurations/CatalogBrandEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/EntityConfigurations/CatalogItemEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/EntityConfigurations/CatalogTypeEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/BrandsTextFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/CatalogItems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/CatalogTypes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Controllers/CatalogController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Extensions/DbContextRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Extensions/HostExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/CatalogSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/CatalogService.Api" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/CatalogService.Api.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/CatalogService.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/CatalogService.Api.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/CatalogService.Api.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Build.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Build.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Elfie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.NET.StringTools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Polly.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Polly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Serilog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Reflection.MetadataLoadContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/af/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ar/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/az/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/bg/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/bn-BD/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/da/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/el/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fa/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fi-FI/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr-BE/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/he/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/hr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/hu/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/hy/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/id/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/is/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko-KR/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ku/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/lv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ms-MY/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/mt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/nb-NO/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/nb/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/nl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/pt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ro/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/sk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/sl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/sr-Latn/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/sr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/sv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/th-TH/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/uk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/uz-Latn-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/vi/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-CN/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/.nupkg.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator.8.0.4.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator.8.0.4.nupkg.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/DotnetToolSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.Elfie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/af/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ar/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/az/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/bg/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/bn-BD/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/build/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/buildMultiTargeting/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/da/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/dotnet-aspnet-codegenerator.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/dotnet-aspnet-codegenerator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/dotnet-aspnet-codegenerator.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/dotnet-aspnet-codegenerator.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/dotnet-aspnet-codegenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/el/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fa/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fi-FI/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr-BE/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/he/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/hr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/hu/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/hy/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/id/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/is/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko-KR/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ku/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/lv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ms-MY/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/mt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/nb-NO/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/nb/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/nl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/pt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ro/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/shims/win-x64/dotnet-aspnet-codegenerator.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/shims/win-x86/dotnet-aspnet-codegenerator.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/sk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/sl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/sr-Latn/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/sr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/sv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/th-TH/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/toolassets/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/uk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/uz-Cyrl-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/uz-Latn-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/vi/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-CN/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/dotnet-aspnet-codegenerator/8.0.4/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/.store/dotnet-aspnet-codegenerator/8.0.4/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogS.0DBC7C0E.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/ref/CatalogService.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/refint/CatalogService.Api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.CatalogService.Api.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CatalogService.Api.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CatalogService.Api.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/dotnet-aspnet-codegenerator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SellingBuddy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/Web.ApiGateway.AssemblyInfoInputs.cache" afterDir="false" />
@@ -70,11 +516,18 @@
       <change beforePath="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/CatalogService.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/CatalogService.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Context/CatalogContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Context/CatalogContextSeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/BrandsTextFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/CatalogItems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Infrastructure/Setup/CatalogTypes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/CatalogService.Api.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CatalogService.Api/CatalogService.Api/obj/project.assets.json" afterDir="false" />
@@ -131,12 +584,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61f624547d188ed3edbb8ffffe77111dec87a2371abaf79ae26274f62c7094/MethodInfoExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/79e4164404d2be7b9d0cd51036b545bd14f5807c558d20f7cd375d4fd8ff23/ConnectionFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c3a23dca8e1c5aa76b0cdc4c649e165e669db4f1e39e3769da5dda0d383e85e/IAuthMechanismFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a936898dfc13fa514cb37683fc9f55de6dffb8357d0ec97cdf56c6f10a5c4c4/Microsoft.Data.SqlClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/be112f14aa78a468ab253c5396ef917d5d99fe80682a3206e3d2c2d5842cce6/IConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiGateways/WebApiGateway/Web.ApiGateway/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.AzureServiceBus/obj/Debug/net8.0/EventBus.AzureServiceBus.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/BuildingBlocks/EventBus/EventBus.Factory/obj/Debug/net8.0/EventBus.Factory.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/Services/BasketService/BasketService.Api/obj/Debug/net8.0/BasketService.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/frowing/Projects/Microservice/SellingBuddy/src/Services/CatalogService.Api/CatalogService.Api/obj/Debug/net8.0/CatalogService.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/BuildingBlocks/EventBus.UnitTest/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -151,29 +601,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;a7e33c0a-046c-4c7b-91ac-2695fe5a1072.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;catalog-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.CatalogService.Api: http.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "a7e33c0a-046c-4c7b-91ac-2695fe5a1072.executor": "Debug",
+    "git-widget-placeholder": "catalog-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/frowing/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "azure",
+      "sqlserver"
+    ],
+    "rider.external.source.directories": [
+      "/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/frowing/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/frowing/.local/share/Symbols/src"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Multi-Launch.Multi-Launch: SellingBuddy">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.CatalogService.Api: http">
     <configuration name="BasketService.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Services/BasketService/BasketService.Api/BasketService.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -504,6 +959,12 @@
       <workItem from="1722368094104" duration="571000" />
       <workItem from="1722418648345" duration="1190000" />
       <workItem from="1722519441957" duration="5394000" />
+      <workItem from="1722841186081" duration="715000" />
+      <workItem from="1723324812834" duration="3250000" />
+      <workItem from="1723798945126" duration="1718000" />
+      <workItem from="1724005889932" duration="2819000" />
+      <workItem from="1724784202494" duration="3772000" />
+      <workItem from="1725272350752" duration="5438000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -561,7 +1022,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722363831859</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="part 1">
+      <option name="closed" value="true" />
+      <created>1722841282451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722841282451</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,6 +1057,7 @@
     <MESSAGE value="azure servicebus configuration" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="eventbus tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="eventbus tests" />
+    <MESSAGE value="part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 1" />
   </component>
 </project>

@@ -28,10 +28,90 @@ public class CatalogContextSeed
 
     private async Task ProcessSeeding(CatalogContext context, string setupDirPath, string picturePath, ILogger logger)
     {
+        if (!context.CatalogBrands.Any())
+        {
+            await context.CatalogBrands.AddRangeAsync(GetCatalogBrandsFromFile(setupDirPath));
 
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.CatalogTypes.Any())
+        {
+            await context.CatalogTypes.AddRangeAsync(GetCatalogTypesFromFile(setupDirPath));
+
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.CatalogItems.Any())
+        {
+            await context.CatalogItems.AddRangeAsync(GetCatalogItemsFromFile(setupDirPath, context));
+
+            await context.SaveChangesAsync();
+
+            GetCatalogItemPictures(setupDirPath, picturePath);
+        }
     }
+    
+    private IEnumerable<CatalogBrand> GetCatalogBrandsFromFile(string contentPath)
+    {
+        IEnumerable<CatalogBrand> GetPreconfiguredCatalogBrands()
+        {
+            return new List<CatalogBrand>()
+            {
+                new CatalogBrand() { Brand = "Azure"},
+                new CatalogBrand() { Brand = ".NET" },
+                new CatalogBrand() { Brand = "Visual Studio" },
+                new CatalogBrand() { Brand = "SQL Server" },
+                new CatalogBrand() { Brand = "Other" }
+            };
+        }
 
-    private IEnumerable<CatalogItem> GetConfiguredItemsFromFile(string contentPath, CatalogContext context)
+        string fileName = Path.Combine(contentPath, "BrandsTextFile.txt");
+
+        if (!File.Exists(fileName))
+        {
+            return GetPreconfiguredCatalogBrands();
+        }
+
+        var fileContent = File.ReadAllLines(fileName);
+
+        var list = fileContent.Select(i => new CatalogBrand()
+        {
+            Brand = i.Trim('"').Trim()
+        }).Where(i => i != null);
+
+        return list ?? GetPreconfiguredCatalogBrands();
+    }
+    private IEnumerable<CatalogType> GetCatalogTypesFromFile(string contentPath)
+    {
+        IEnumerable<CatalogType> GetPreconfiguredCatalogTypes()
+        {
+            return new List<CatalogType>()
+            {
+                new CatalogType() { Type = "Mug"},
+                new CatalogType() { Type = "T-Shirt" },
+                new CatalogType() { Type = "Sheet" },
+                new CatalogType() { Type = "USB Memory Stick" }
+            };
+        }
+
+        string fileName = Path.Combine(contentPath, "CatalogTypes.txt");
+
+        if (!File.Exists(fileName))
+        {
+            return GetPreconfiguredCatalogTypes();
+        }
+
+        var fileContent = File.ReadAllLines(fileName);
+
+        var list = fileContent.Select(i => new CatalogType()
+        {
+            Type = i.Trim('"').Trim()
+        }).Where(i => i != null);
+
+        return list ?? GetPreconfiguredCatalogTypes();
+    }
+    private IEnumerable<CatalogItem> GetCatalogItemsFromFile(string contentPath, CatalogContext context)
     {
         IEnumerable<CatalogItem> GetPreconfiguredItems()
         {
@@ -128,8 +208,7 @@ public class CatalogContextSeed
         
         return fileContent;
     }
-
-    private void GetCatalogItemsPicture(string picturePath, string contentPath)
+    private void GetCatalogItemPictures(string picturePath, string contentPath)
     {
         picturePath ??= "pics";
         if (picturePath is not null)
