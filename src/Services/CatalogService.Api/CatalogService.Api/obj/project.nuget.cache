@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5cSbS6aq/LuwcTmwC9JYdBs/PAVHmVtjenKgq3Wp5t4k9O6femLxtbvC+lNgoTilT/85qwlkis7PEjPQPK4bqA==",
+  "dgSpecHash": "I8Xj3Yadaeo5g6UHwp42NthbbmvCw6alNs9LRLXgF4zzR/ZLxwMbftgUKizGJATJQCCeQasow0e8Rnj2uUce/Q==",
   "success": true,
   "projectFilePath": "/Users/frowing/Projects/Microservice/SellingBuddy/src/Services/CatalogService.Api/CatalogService.Api/CatalogService.Api.csproj",
   "expectedPackageFiles": [
